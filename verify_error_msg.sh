@@ -31,7 +31,7 @@ export BRANCH_CHAIN_MERGE_TEST_OUT=/tmp/argument-collision-warning_results.txt
 
 #diff ${MASTER_CHAIN_MERGE_TEST_OUT} ${BRANCH_CHAIN_MERGE_TEST_OUT}
 
-python ${CWD}/compare.py ${MASTER_CHAIN_MERGE_TEST_OUT} ${BRANCH_CHAIN_MERGE_TEST_OUT}
+python ${CWD}/compare_results.py ${MASTER_CHAIN_MERGE_TEST_OUT} ${BRANCH_CHAIN_MERGE_TEST_OUT}
 
 
 
